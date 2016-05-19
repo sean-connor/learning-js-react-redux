@@ -1,4 +1,4 @@
-# Special Considerations of Javascript
+# Considerations in Javascript
 
 ## OO in Javascript
 * [MDN Object-Oriented Programming in Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Introduction_to_Object-Oriented_JavaScript)

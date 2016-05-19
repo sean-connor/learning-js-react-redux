@@ -8,7 +8,7 @@ This repo will contain resources for learning Javascript, React, and Redux
 
 ## React
 - [Documentation] [rt-documentation]
-- [Introduction] [rd-introduction]
+- [Introduction] [rt-introduction]
 
 ## Redux
 - [Documentation] [rd-documentation]
