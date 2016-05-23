@@ -163,7 +163,10 @@
   * Events
     * Callbacks are very important for browser events, any action the user takes probably results in a callback being executed.
   * Promises
-    * These
+    * These can be a little confusing, but really they simplify the way we do asynchronous calls.
+    * Videos
+      * [Thinking Sync in an Async World](https://www.youtube.com/watch?v=wc72cyYt8-c)
+
 
 ## The Event Loop
   * The event loop is the culmination of understanding JS's asynchronous behavior.

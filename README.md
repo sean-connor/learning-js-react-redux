@@ -1,5 +1,5 @@
 # Learning Javascript, React, and Redux
-This repo will contain resources for learning Javascript, React, and Redux
+This repo will contain resources for learning Javascript, React, and Redux.  Don't worry about meticulously going through each resource, provided the concept is understood.
 
 ## Javascript
 - [Javascript Documentation] [js-documentation]
