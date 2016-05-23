@@ -63,6 +63,8 @@
       //
       ```  
     * Object Properties - "this"
+      * 'This' is an important JS concept. If you're hazy on what 'this' refers to in JavaScript read this [article](http://javascriptissexy.com/understand-javascripts-this-with-clarity-and-master-it/).
+
       ```javascript
 
       // All ES5 Syntax
@@ -121,15 +123,49 @@
       //
       ```
   * IIFEs(Immediately-invoked function expressions)
+    * IIFEs allow us to not pollute the global namespace, as variables used within the IIFE are not usable outside of its scope.
+    * Here is an IIFE:
+      ```javascript
+      (function () {
+
+      })();
+      ```
+    * Not terribly exciting, but the first pair of parenthesis wrap the function in an expression, and the second pair of parenthesis immediately invoke that function... thus immediately-invoked function expressions!
+
   * Function Scope
-  * Binding
+    ```javascript
+          // Scope A
+      var myFunction = function () {
+        // Scope B
+        var myOtherFunction = function () {
+          // Scope C
+        };
+      };
+    ```
+  * Lexical Scope
+    * This is really a reiteration of the concept of closures, but lexical scoping is the idea that an inner function has access to all of the variables declared throughout its inheritance.
+
+
+  * Bind / Call / Apply
+    * These functions largely deal with maintaining the reference to 'this' from function to function.
+    * Advantages would be you could use these different functions for various references(different 'this's).
+    * I think this [article](http://javascriptissexy.com/javascript-apply-call-and-bind-methods-are-essential-for-javascript-professionals/) covers the topic fairly well.
+
 
 
 ## Callbacks
   * Basic
+    * Takeaways:
+      * Asynchronous / Synchronous nature
+      * Technically, Javascript is a synchronous language, the implementation in the browser and in frameworks, like Node, give it asynchronous behavior.
+    * [Video](https://www.youtube.com/watch?v=qN0dkXj7jc0)
+      * Pretty decent coverage of Async callbacks, don't worry about the functions used.
   * Events
+    * Callbacks are very important for browser events, any action the user takes probably results in a callback being executed.
   * Promises
+    * These
 
 ## The Event Loop
+  * The event loop is the culmination of understanding JS's asynchronous behavior.
   * [Event Loop with Loupe](http://bit.ly/1Btu0Iy)
   * [MDN Concurrency and the Event Loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)
