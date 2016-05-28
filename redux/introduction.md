@@ -10,9 +10,11 @@
   * The state is read-only from the store, nothing can change the state, actions can be emitted, which call reducers.
 
 ## Videos
+* Must watch intro by Dan Abramov: [Live React](https://www.youtube.com/watch?v=xsSnOQynTHs)
 * Series on egghead.io by the creator of Redux, Dan Abramov: [Introduction to Redux](https://egghead.io/series/getting-started-with-redux)
 
 
 
 ## To-Dos:
+* [Awesome Redux](https://github.com/xgrommx/awesome-redux), really great central point for finding redux information.
 * Try to recreate the counter example from Dan's videos.
